@@ -1,0 +1,369 @@
+
+#nav {
+    left: 0%;
+    right: 0%;
+    background-color:rgb(255, 255, 255);
+    position: fixed;
+    top: -50px;
+    display: block;
+    transition: top 0.3s ease;
+    box-shadow: 2px 3px 4px #aaaaaa;
+    z-index: 1;
+}
+
+.nav-item:first-child {
+    float: left;
+}
+
+.nav-item {
+    color: black;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.nav-item:hover {
+    color: #a3a6ad;
+    transition: 2s;
+    text-decoration: underline;
+}
+
+#greeting-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#about-section {
+    padding: 50px;
+    padding-top: 100px;
+    background-color: rgb(255, 255, 255); 
+}
+#education-section {
+    padding: 50px;
+    padding-top: 100px;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+#project-section {
+    padding: 50px;
+    padding-top: 100px;
+}
+#footer-section {
+    padding-top: 20px;
+    height: 50px;
+    background-color: rgb(239, 239, 239);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    scroll-behavior: smooth;
+    font-family: cursive;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.upper {
+    height: 50vh;
+    padding: 50px;
+    padding-bottom: 0px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
+}
+.my_image {
+    width: 170px;
+    border-radius: 5px;
+}
+
+.intro_div {
+    /* display: inline-block; */
+    vertical-align: top;
+    padding-top: 40px;
+    padding-right: 4%;
+}
+
+.name_div {
+    font-size: 30px;
+    width: 300px;
+    color: #342a2a;
+    font-family: cursive;
+    text-align: center;
+}
+
+.greeting {
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: #342a2a;
+    padding-left: 10px;
+}
+
+.greeting span {
+    display: inline-block;
+    animation: greeting 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes greeting {
+    0%, 40%, 100% {
+        transform: translateY(0)
+    }
+    20% {
+        transform: translateY(-10px)
+    }
+}
+
+.arrow {
+    width: 5px;
+    height: 5px;
+    border: solid black;
+    border-color: #575757;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transition: 0.3s;
+    animation: bounce 3s infinite;
+    margin: 20px;
+
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0) rotate(45deg);
+    }
+    40% {
+        transform: translateY(-20px) rotate(45deg);
+    }
+    60% {
+        transform: translateY(-10px) rotate(45deg);
+    }
+}
+
+.container {
+    left: 47%;
+    position: absolute;
+}
+.helloworld {
+    font-size: 28px;
+    font-weight: bold;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    animation: typewriter 5s steps(7),
+    blinking-cursor 0.8s infinite;
+    animation-fill-mode: forwards
+}
+@keyframes typewriter {
+    0% { width:0 }
+    25% { width: 50% }
+    48% { width: 100% }
+  }
+  
+  @keyframes blinking-cursor {
+    from { border-color: transparent }
+    to { border-color: black }
+  }
+
+
+.col-pic-stu {
+    width: 300px;
+}
+.col-pic-mil {
+    width: 300px;
+}
+.col-pic-hob {
+    width: 300px;
+}
+
+
+.row-pic {
+    display: inline-block;
+    width: 140px;
+    height: 100px;
+}
+
+.img-wrapper {
+    margin: 10px;
+}
+
+.img-row {
+    display: flex;
+    flex: 1;
+}
+
+.about-me-div {
+    margin: 50px 10% 10px 10%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(239, 239, 239);
+}
+
+.heading {
+    text-align: center;
+}
+
+
+.h2 {
+    display: block;
+    margin-inline-start: 0px;    
+    font-weight: bold;
+}
+
+.military-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 3%;
+    border-right: 4px solid white;
+    padding: 2%;
+}
+
+.student-collage {
+    margin-top: 25px;
+}
+.military-collage {
+    margin-top: 15px;
+}
+.student-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 3%;
+    margin-top: 0;
+    border-left: 4px solid white;
+    padding: 2%;
+    justify-content: center;
+    
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+
+.education-div {
+    margin-top: 45px;
+    background-color: #900;
+}
+.school-logos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+/* .education-title {
+    font-family: cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+} */
+.grad,
+.major {
+    font-family: cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgb(229, 229, 229);  
+}
+.grad {
+    font-size: 15px;
+    padding-top: 0px;
+}
+.heading-education {
+    padding-bottom: 20px;
+}
+
+.coursework {
+    font-size: 20px;
+    padding-left: 200px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-content: left;
+    flex-direction: column;
+    background-color: rgb(239, 239, 239);
+}
+
+.footer-div2, .footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.links:hover {
+    color: rgb(117, 117, 117);
+}
+
+.projectbox {
+    margin: 20px;
+    background-color: rgb(239,239,239);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.projectbox:hover {
+    background-color: rgb(220,220,220);
+}
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 55px;
+    /* align-items: center;
+    align-content: center; */
+    justify-content: center;
+}
+
+.exp {
+    padding: 0;
+    font-size: 10px;
+}
+.project-title {
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 22px;
+    position: relative;
+    text-align: center;
+
+}
+
+.project-description {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.project-tech {
+    text-align: center;
+}
