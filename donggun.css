@@ -23,7 +23,7 @@
     padding: 20px;
     text-decoration: none;
     font-size: 20px;
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 500;
 }
 
@@ -71,7 +71,7 @@ body {
     width: 100%;
     background-color: rgb(255, 255, 255);
     scroll-behavior: smooth;
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* display: flex; */
     justify-content: center;
     align-items: center;
@@ -107,14 +107,14 @@ body {
     font-size: 30px;
     width: 300px;
     color: #342a2a;
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
 
 .greeting {
     font-size: 20px;
     text-align: center;
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #342a2a;
     padding-left: 10px;
 }
@@ -286,7 +286,7 @@ body {
 } */
 .grad,
 .major {
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     display: flex;
     justify-content: center;
