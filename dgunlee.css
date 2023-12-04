@@ -268,15 +268,11 @@ iframe {
     #header-container {
         width: 80%;
     } */
-    iframe {
-        border: 2px solid black;
-    }
+
 
 }
 @media (max-width: 575px) {
-    iframe {
-        border: 2px solid black;
-    }
+
     #header-container {
         width: 45%;
     }
